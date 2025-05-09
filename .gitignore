@@ -1,0 +1,33 @@
+# Meteor build and local files
+.meteor/local/
+.meteor/meteor-tool
+
+# Node modules
+node_modules/
+
+# Build output
+bundle/
+build/
+public/*.bundle.js
+
+# Optional: include if using Meteor with Cordova
+.cordova/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment/secret files
+.env
+*.swp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code (optional)
+.vscode/
+
+# Railway / Deployment (optional)
+railway.json
